@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            /* div{
+                width:200px;
+                height: 400px;
+                background-color: red;
+            } */
+            .boxred{
+                width: 500px;
+                height: 60px;
+                background-color: red;
+            }
+            .boxblue{
+                width: 150px;
+                height: 150px;
+                background-color: blue;
+            }
+            /* span{
+                width: 500px;
+                height: 60px;
+                background-color: greenyellow;
+            } */
+            .spanred{
+                display: inline-block;
+                width: 500px;
+                height:60px;
+                background-color: red;
+            }
+            .spanblue{
+                width: 150px;
+                height:150px;
+                background-color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="boxred">
+            CSS에서 DIV 가로세로가 어떻게 적용되는지 확인해보겠습니다
+        </div>
+        <div class="boxblue">
+            CSS에서 DIV 가로세로가 어떻게 적용되는지 확인해보겠습니다
+        </div>
+        <p class="boxblue">
+            CSS에서 DIV 가로세로가 어떻게 적용되는지 확인해보겠습니다
+        </p>
+        <img class="boxblue" src="./img/jung.jpg">
+        <span class="spanred">강아지</span>
+        <span class="spanblue">규앵이</span>
+
+        <input class="spanblue" type="text" name="uid" value="">
+        <a class="spanred" href="https://www.naver.com" >네이버</a>
+    </body>
+
+</html>
